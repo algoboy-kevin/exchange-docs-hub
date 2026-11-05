@@ -5,8 +5,42 @@ Links and original annotations only: this repository does not mirror third-party
 
 ## Status
 
-Scaffold published. Initial catalog verification is in progress; candidate URLs are not yet certified reachable.
-Initial scope: Binance, Hyperliquid, Aster, and Polymarket.
+The initial four-venue catalog is complete: Binance, Hyperliquid, Aster, and Polymarket.
+13 sources are listed. All 13 were checked on 2026-11-05 with a bounded GET, and each
+response body was checked to be documentation rather than an app shell. None are blocked.
+Only the first part of the paginated Hyperliquid and Aster `llms-full.txt` files was
+checked. See `docs/PROGRESS.md` for the exact results and limitations.
+
+Reachability checks do not establish API correctness or completeness.
+
+## Usage
+
+Validate the catalog offline (standard library only):
+
+```sh
+python3 scripts/validate.py
+```
+
+Regenerate `CATALOG.md` and `llms.txt` from `catalog.json`:
+
+```sh
+python3 scripts/render.py
+```
+
+Check that the generated files match the catalog (exits nonzero on drift):
+
+```sh
+python3 scripts/render.py --check
+```
+
+Check the official sources for changes (network; hashes each body, stores no text):
+
+```sh
+python3 scripts/check_updates.py                  # report only
+python3 scripts/check_updates.py --apply          # record and append CHANGELOG.md
+```
+
+Run `validate` and `render` after `--apply`.
 
 ## Retrieval order
 
@@ -19,9 +53,13 @@ An HTTP 200 alone is not verification: check the body for documentation rather t
 
 ## Layout
 
-- `catalog.json`: canonical link registry; seed candidates initially marked unverified.
+- `catalog.json`: canonical link registry (source of truth).
+- `CATALOG.md`, `llms.txt`: generated from `catalog.json`; do not edit by hand.
+- `scripts/validate.py`: offline schema validator.
+- `scripts/render.py`: generator, with `--check` mode.
 - `docs/SPEC.md`: catalog fields, scope, and acceptance criteria.
+- `docs/PROGRESS.md`: validation results and limitations.
+- `CONTRIBUTING.md`: provenance rules, schema, and contribution steps.
 - `HANDOVER.md`: completion handoff.
-- Planned: `CATALOG.md`, `llms.txt`, contribution guidance and an offline validator.
 
-Sources remain authoritative. Reachability checks do not establish API correctness or completeness.
+Sources remain authoritative.

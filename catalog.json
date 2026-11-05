@@ -8,18 +8,41 @@
         {
           "url": "https://developers.binance.com/en/docs/llms.txt",
           "kind": "llms-index",
-          "description": "Candidate official documentation entry point",
-          "status": "unverified",
-          "checked_at": null,
-          "notes": "Seed candidate; body verification pending."
+          "description": "Official documentation index (Binance Developer Docs)",
+          "status": "verified",
+          "checked_at": "2026-11-05T06:56:52Z",
+          "notes": "Body checked: Markdown index with links to documentation pages.",
+          "http_status": 200,
+          "content_sha256": "2101155962c871d35d81476f5558f3dde8af3dab31f374bde72f3e3904591d7c",
+          "content_bytes": 175048,
+          "etag": "\"6ae3ff47-2abc8\"",
+          "last_modified": "Fri, 30 Oct 2026 02:21:59 GMT"
         },
         {
           "url": "https://developers.binance.com/en/docs/llms-full.txt",
           "kind": "llms-full",
-          "description": "Candidate official documentation entry point",
-          "status": "unverified",
-          "checked_at": null,
-          "notes": "Seed candidate; body verification pending."
+          "description": "Complete Binance Developer Docs as one text file (about 8 MB)",
+          "status": "verified",
+          "checked_at": "2026-11-05T06:56:54Z",
+          "notes": "Body checked: documentation text, not a JS shell. Large; download once and search locally.",
+          "http_status": 200,
+          "content_sha256": "7fe8634d231eacc5564bef1995fe45c1bbc52ea7b7072cc50e3b0d06ad05c68e",
+          "content_bytes": 8344376,
+          "etag": "\"6ae3ff47-7f5338\"",
+          "last_modified": "Fri, 30 Oct 2026 02:21:59 GMT"
+        },
+        {
+          "url": "https://developers.binance.com/en/docs/products/derivatives-trading-usds-futures/general-info.md",
+          "kind": "markdown",
+          "description": "USDS-M Futures general API information (raw Markdown)",
+          "status": "verified",
+          "checked_at": "2026-11-05T06:56:52Z",
+          "notes": "Body checked: Markdown API general information for USDS-M futures.",
+          "http_status": 200,
+          "content_sha256": "7026aa5ae78b20df3e15349dfdb37f92866d563131cb551ff6eb538e58343a65",
+          "content_bytes": 19261,
+          "etag": "\"6ae3ff2b-4b3d\"",
+          "last_modified": "Fri, 30 Oct 2026 02:21:31 GMT"
         }
       ]
     },
@@ -30,10 +53,38 @@
         {
           "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/llms.txt",
           "kind": "llms-index",
-          "description": "Candidate official documentation entry point",
-          "status": "unverified",
-          "checked_at": null,
-          "notes": "Seed candidate; body verification pending."
+          "description": "Official Hyperliquid documentation index",
+          "status": "verified",
+          "checked_at": "2026-11-05T06:56:53Z",
+          "notes": "Body checked: Markdown index including the public API section.",
+          "http_status": 200,
+          "content_sha256": "1c712a65803e2be8cda816d62167cfd41770cd6f1ab4e1c7ded8e79f1faa3071",
+          "content_bytes": 21219,
+          "etag": "\"d48c7e477688903fb801f6153ba180a8\""
+        },
+        {
+          "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/llms-full.txt",
+          "kind": "llms-full",
+          "description": "Hyperliquid documentation as one text file, paginated",
+          "status": "verified",
+          "checked_at": "2026-11-05T06:56:54Z",
+          "notes": "Body checked: part 1 of 2 (pages 1-100 of 149) is documentation. Only part 1 was checked; follow the paging links for the rest.",
+          "http_status": 200,
+          "content_sha256": "fb6cc4d6a2974c538366d7605431e6f7ec1797745513debb59d44d058527dadf",
+          "content_bytes": 537347,
+          "etag": "\"ccb4e44005d5cd5750351e974eae7455\""
+        },
+        {
+          "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api.md",
+          "kind": "markdown",
+          "description": "Hyperliquid public API overview (raw Markdown)",
+          "status": "verified",
+          "checked_at": "2026-11-05T06:56:54Z",
+          "notes": "Body checked: short overview page that links to endpoint pages such as the info endpoint.",
+          "http_status": 200,
+          "content_sha256": "156b8b0074c12355fc52239806d956af07cd8bf728d911cc5ecaf13d67640d5d",
+          "content_bytes": 1018,
+          "etag": "\"9dca4c3f8e313a4b73f3785d20f0d361\""
         }
       ]
     },
@@ -44,10 +95,35 @@
         {
           "url": "https://docs.asterdex.com/llms.txt",
           "kind": "llms-index",
-          "description": "Candidate official documentation entry point",
-          "status": "unverified",
-          "checked_at": null,
-          "notes": "Seed candidate; body verification pending."
+          "description": "Official Aster documentation index",
+          "status": "verified",
+          "checked_at": "2026-11-05T06:56:54Z",
+          "notes": "Body checked: Markdown index with links to documentation pages.",
+          "http_status": 200,
+          "content_sha256": "ecc0f4aac4f69e1f73a5695914a382ff9977a466afb3265ad9280b547443ba1d",
+          "content_bytes": 20038
+        },
+        {
+          "url": "https://docs.asterdex.com/llms-full.txt",
+          "kind": "llms-full",
+          "description": "Aster documentation as one Markdown file, paginated",
+          "status": "verified",
+          "checked_at": "2026-11-05T06:56:54Z",
+          "notes": "Body checked: part 1 of 3 (pages 1-100 of 204) is documentation. Only part 1 was checked; follow the paging links for the rest.",
+          "http_status": 200,
+          "content_sha256": "534b6dcc62b3eb3bb6787c47cbaecbebf8c5ff3a9d4ba40c127a8ae78dbac6b4",
+          "content_bytes": 405624
+        },
+        {
+          "url": "https://docs.asterdex.com/for-developers/aster-api/api-documentation.md",
+          "kind": "markdown",
+          "description": "Aster API documentation page (raw Markdown)",
+          "status": "verified",
+          "checked_at": "2026-11-05T06:56:54Z",
+          "notes": "Body checked: Markdown page that points to the external API reference site for futures endpoints.",
+          "http_status": 200,
+          "content_sha256": "3ff00569be0a301e12c5503432918149f7228a8ecfa10efb27529e0d231eb39f",
+          "content_bytes": 125553
         }
       ]
     },
@@ -58,10 +134,51 @@
         {
           "url": "https://docs.polymarket.com/llms.txt",
           "kind": "llms-index",
-          "description": "Candidate official documentation entry point",
-          "status": "unverified",
-          "checked_at": null,
-          "notes": "Seed candidate; body verification pending."
+          "description": "Official Polymarket documentation index",
+          "status": "verified",
+          "checked_at": "2026-11-05T06:56:54Z",
+          "notes": "Body checked: Markdown index with links to pages, the API reference index and OpenAPI specs.",
+          "http_status": 200,
+          "content_sha256": "fa077764b491e41cff64ffb79e3984ef876ea28f9279025bbbee8262a3623ce8",
+          "content_bytes": 15337,
+          "etag": "W/\"6gJWvu9hISXgERRggeFr8Dheng6FPsbmUappGfyn1Mw\""
+        },
+        {
+          "url": "https://docs.polymarket.com/llms-full.txt",
+          "kind": "llms-full",
+          "description": "Polymarket documentation as one text file (about 1.8 MB)",
+          "status": "verified",
+          "checked_at": "2026-11-05T06:56:55Z",
+          "notes": "Body checked: documentation text. Large; download once and search locally.",
+          "http_status": 200,
+          "content_sha256": "7d64aeb99088ae6d126b494e9ad97ab54c53bed00fbd84a92412cea4cb82ca18",
+          "content_bytes": 1843370,
+          "last_modified": "Wed, 04 Nov 2026 22:44:11 GMT"
+        },
+        {
+          "url": "https://docs.polymarket.com/_llms/en/api-reference.txt",
+          "kind": "llms-index",
+          "description": "Polymarket English API reference index, with per-section text files and OpenAPI links",
+          "status": "verified",
+          "checked_at": "2026-11-05T06:56:55Z",
+          "notes": "Body checked: Markdown index listing API reference sections and OpenAPI/AsyncAPI specs.",
+          "http_status": 200,
+          "content_sha256": "e8b2d4d24b50558f40aca9b96d417432797fd07d33b36edfc8ebb6d6f36136a6",
+          "content_bytes": 1064,
+          "etag": "W/\"3kN1JtztsaB3KGee9pyoeHjkme-XQzTGsAuSdIC35HM\""
+        },
+        {
+          "url": "https://docs.polymarket.com/api-spec/clob-openapi.yaml",
+          "kind": "openapi",
+          "description": "Polymarket CLOB API OpenAPI 3.1 specification (YAML)",
+          "status": "verified",
+          "checked_at": "2026-11-05T06:56:55Z",
+          "notes": "Body checked: starts with openapi 3.1.0 and the Polymarket CLOB API title.",
+          "http_status": 200,
+          "content_sha256": "19268516978fc513ac3b02be4dde220df1236c56860e950395abfa9d51b58255",
+          "content_bytes": 222496,
+          "etag": "W/\"lCJFy89TCexS0UJ5\"",
+          "last_modified": "Wed, 21 Oct 2026 19:21:18 GMT"
         }
       ]
     }

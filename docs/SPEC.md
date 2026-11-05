@@ -4,6 +4,14 @@
 Provide a minimal gateway to official exchange API docs, not a connector, a mirror or an API tutorial.
 Complete the initial four venues only: Binance, Hyperliquid, Aster, Polymarket.
 
+## Use cases (owner, 2026-11-05)
+1. Quick LLM reference: `llms.txt` and the llms-full links, so an agent can find exchange docs in one fetch.
+2. Versioned updates: `scripts/check_updates.py` hashes each source body (SHA-256, body discarded). A changed hash
+   means the docs changed; `--apply` records it and appends `CHANGELOG.md`. Version = the content hash plus
+   the check time, not a copied document.
+3. Adding exchanges: new venues are added by editing `catalog.json` (see CONTRIBUTING.md "Adding a venue"). The
+   owner approves each venue; the four current venues are the starting set, not a limit.
+
 ## Canonical schema
 `catalog.json` is an object with `schema_version: 1` and `exchanges` array.
 Each exchange has unique `id`, `name`, and nonempty `sources` array.

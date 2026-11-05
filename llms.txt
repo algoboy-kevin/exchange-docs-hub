@@ -1,0 +1,30 @@
+# Exchange Docs Hub
+
+> Links to official exchange API documentation in LLM-friendly formats (Binance, Hyperliquid, Aster, Polymarket). Links only; no mirrored content.
+> Status labels: verified = body checked at recorded time; unverified = candidate not yet checked; blocked = fetch failed.
+> Sources: 13 total; 13 verified, 0 unverified, 0 blocked.
+
+## Binance
+
+- [llms-index: Official documentation index (Binance Developer Docs)](https://developers.binance.com/en/docs/llms.txt) [verified]
+- [llms-full: Complete Binance Developer Docs as one text file (about 8 MB)](https://developers.binance.com/en/docs/llms-full.txt) [verified]
+- [markdown: USDS-M Futures general API information (raw Markdown)](https://developers.binance.com/en/docs/products/derivatives-trading-usds-futures/general-info.md) [verified]
+
+## Hyperliquid
+
+- [llms-index: Official Hyperliquid documentation index](https://hyperliquid.gitbook.io/hyperliquid-docs/llms.txt) [verified]
+- [llms-full: Hyperliquid documentation as one text file, paginated](https://hyperliquid.gitbook.io/hyperliquid-docs/llms-full.txt) [verified]
+- [markdown: Hyperliquid public API overview (raw Markdown)](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api.md) [verified]
+
+## Aster
+
+- [llms-index: Official Aster documentation index](https://docs.asterdex.com/llms.txt) [verified]
+- [llms-full: Aster documentation as one Markdown file, paginated](https://docs.asterdex.com/llms-full.txt) [verified]
+- [markdown: Aster API documentation page (raw Markdown)](https://docs.asterdex.com/for-developers/aster-api/api-documentation.md) [verified]
+
+## Polymarket
+
+- [llms-index: Official Polymarket documentation index](https://docs.polymarket.com/llms.txt) [verified]
+- [llms-full: Polymarket documentation as one text file (about 1.8 MB)](https://docs.polymarket.com/llms-full.txt) [verified]
+- [llms-index: Polymarket English API reference index, with per-section text files and OpenAPI links](https://docs.polymarket.com/_llms/en/api-reference.txt) [verified]
+- [openapi: Polymarket CLOB API OpenAPI 3.1 specification (YAML)](https://docs.polymarket.com/api-spec/clob-openapi.yaml) [verified]
