@@ -2,7 +2,7 @@
 
 > Links to official exchange API documentation in LLM-friendly formats (Binance, Hyperliquid, Aster, Polymarket). Links only; no mirrored content.
 > Status labels: verified = body checked at recorded time; unverified = candidate not yet checked; blocked = fetch failed.
-> Sources: 13 total; 13 verified, 0 unverified, 0 blocked.
+> Sources: 20 total; 20 verified, 0 unverified, 0 blocked.
 
 ## Binance
 
@@ -21,6 +21,8 @@
 - [llms-index: Official Aster documentation index](https://docs.asterdex.com/llms.txt) [verified]
 - [llms-full: Aster documentation as one Markdown file, paginated](https://docs.asterdex.com/llms-full.txt) [verified]
 - [markdown: Aster API documentation page (raw Markdown)](https://docs.asterdex.com/for-developers/aster-api/api-documentation.md) [verified]
+- [markdown: Aster Spot API v3 (sapi.asterdex.com, /api/v3), official asterdex GitHub repo](https://raw.githubusercontent.com/asterdex/api-docs/master/V3%28Recommended%29/EN/aster-finance-spot-api-v3.md) [verified]
+- [html: Aster Spot API v3 general info (base URL, auth types, order statuses)](https://asterdex.github.io/aster-api-website/spot-v3/general-info) [verified]
 
 ## Polymarket
 
@@ -28,3 +30,8 @@
 - [llms-full: Polymarket documentation as one text file (about 1.8 MB)](https://docs.polymarket.com/llms-full.txt) [verified]
 - [llms-index: Polymarket English API reference index, with per-section text files and OpenAPI links](https://docs.polymarket.com/_llms/en/api-reference.txt) [verified]
 - [openapi: Polymarket CLOB API OpenAPI 3.1 specification (YAML)](https://docs.polymarket.com/api-spec/clob-openapi.yaml) [verified]
+- [llms-index: Polymarket Perps API reference index (about 102 pages)](https://docs.polymarket.com/_llms/en/api-reference/perps.txt) [verified]
+- [markdown: Polymarket Perps API overview (HTTP and WebSocket endpoints)](https://docs.polymarket.com/api-reference/perps/overview.md) [verified]
+- [openapi: Polymarket Perps OpenAPI spec](https://docs.polymarket.com/api-spec/perps-openapi.json) [verified]
+- [openapi: Polymarket Perps AsyncAPI spec (WebSocket channels and auth)](https://docs.polymarket.com/asyncapi-perps.json) [verified]
+- [openapi: Polymarket RTDS v2 AsyncAPI spec (replaces ws-live-data host)](https://ws-live-v2.polymarket.com/asyncapi.json) [verified]

@@ -16,3 +16,10 @@ and sizes only, never upstream text.
 - 2026-11-05T06:56:55Z | baseline | polymarket | https://docs.polymarket.com/llms-full.txt | sha256 - -> 7d64aeb99088 | - -> 1,843,370 bytes
 - 2026-11-05T06:56:55Z | baseline | polymarket | https://docs.polymarket.com/_llms/en/api-reference.txt | sha256 - -> e8b2d4d24b50 | - -> 1,064 bytes
 - 2026-11-05T06:56:55Z | baseline | polymarket | https://docs.polymarket.com/api-spec/clob-openapi.yaml | sha256 - -> 19268516978f | - -> 222,496 bytes
+- 2026-11-05T07:23:22Z | baseline | aster | https://raw.githubusercontent.com/asterdex/api-docs/master/V3%28Recommended%29/EN/aster-finance-spot-api-v3.md | sha256 - -> 9be32a9a3565 | - -> 71,901 bytes
+- 2026-11-05T07:23:23Z | baseline | aster | https://asterdex.github.io/aster-api-website/spot-v3/general-info | sha256 - -> 3ad08217f500 | - -> 100,983 bytes
+- 2026-11-05T07:23:24Z | baseline | polymarket | https://docs.polymarket.com/_llms/en/api-reference/perps.txt | sha256 - -> caa486bc0571 | - -> 22,839 bytes
+- 2026-11-05T07:23:24Z | baseline | polymarket | https://docs.polymarket.com/api-reference/perps/overview.md | sha256 - -> ccafec27a6cb | - -> 2,462 bytes
+- 2026-11-05T07:23:24Z | baseline | polymarket | https://docs.polymarket.com/api-spec/perps-openapi.json | sha256 - -> 2f22b131a3f5 | - -> 370,959 bytes
+- 2026-11-05T07:23:25Z | baseline | polymarket | https://docs.polymarket.com/asyncapi-perps.json | sha256 - -> 5db88635f63f | - -> 406,950 bytes
+- 2026-11-05T07:23:26Z | baseline | polymarket | https://ws-live-v2.polymarket.com/asyncapi.json | sha256 - -> 94f937068bab | - -> 89,328 bytes
