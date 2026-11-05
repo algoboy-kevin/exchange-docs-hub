@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "exchanges": [
+    {
+      "id": "binance",
+      "name": "Binance",
+      "sources": [
+        {
+          "url": "https://developers.binance.com/en/docs/llms.txt",
+          "kind": "llms-index",
+          "description": "Candidate official documentation entry point",
+          "status": "unverified",
+          "checked_at": null,
+          "notes": "Seed candidate; body verification pending."
+        },
+        {
+          "url": "https://developers.binance.com/en/docs/llms-full.txt",
+          "kind": "llms-full",
+          "description": "Candidate official documentation entry point",
+          "status": "unverified",
+          "checked_at": null,
+          "notes": "Seed candidate; body verification pending."
+        }
+      ]
+    },
+    {
+      "id": "hyperliquid",
+      "name": "Hyperliquid",
+      "sources": [
+        {
+          "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/llms.txt",
+          "kind": "llms-index",
+          "description": "Candidate official documentation entry point",
+          "status": "unverified",
+          "checked_at": null,
+          "notes": "Seed candidate; body verification pending."
+        }
+      ]
+    },
+    {
+      "id": "aster",
+      "name": "Aster",
+      "sources": [
+        {
+          "url": "https://docs.asterdex.com/llms.txt",
+          "kind": "llms-index",
+          "description": "Candidate official documentation entry point",
+          "status": "unverified",
+          "checked_at": null,
+          "notes": "Seed candidate; body verification pending."
+        }
+      ]
+    },
+    {
+      "id": "polymarket",
+      "name": "Polymarket",
+      "sources": [
+        {
+          "url": "https://docs.polymarket.com/llms.txt",
+          "kind": "llms-index",
+          "description": "Candidate official documentation entry point",
+          "status": "unverified",
+          "checked_at": null,
+          "notes": "Seed candidate; body verification pending."
+        }
+      ]
+    }
+  ]
+}
